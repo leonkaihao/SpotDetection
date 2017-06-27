@@ -1,6 +1,18 @@
 # SpotDetection
 Detecting a spot which is generated from laser torch, and calculating its position using a well optimized algorithm
-Usage: [Executable Name] [start number] [end number]
+
+## prerequisite
+Disable the camera exposure, record the spot tracking and save capture bmp files.
+Using number as the name of these files.
+
+
+## Algorithm reference:
+1. Fast spot detection, using grid division to find spot in smaller range.
+2. Transform the laser spot on projector screen from camera coord to screen coord
+3. Output results by console printing and bmp file
+
+## Usage: 
+[Executable Name] [start number] [end number]
 
 Test it step by step:
 1. build this executable with VS2015
