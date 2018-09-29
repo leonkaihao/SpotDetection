@@ -2,7 +2,7 @@
 Detecting a spot which is generated from laser torch, and calculating its position using a well optimized algorithm
 
 ## prerequisite
-Disable the camera exposure, record the spot tracking and save capture bmp files.
+Disable the camera auto exposure, record the spot tracking and save capture bmp files.
 Using number as the name of these files.
 
 
